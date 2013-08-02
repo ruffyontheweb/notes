@@ -1,3 +1,5 @@
+*    Andi Kleen's [list of papers](http://halobates.de)
+
 *    [Advanced Linux FS-2013](https://prof.hti.bfh.ch/myf1/adv-linux/) (0)
 
 *    [Memory](http://www.win.tue.nl/~aeb/linux/lk/lk-9.html)
