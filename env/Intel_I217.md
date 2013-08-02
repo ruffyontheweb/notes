@@ -1,4 +1,4 @@
-### Intel I217 chipset
+### Intel I217 GigE chip
 
 This Intel GigE chipset is used by many 1150 mother broads
 (Asus, Gigabyte, ASRock..etc.).  The default kernel 3.2 or
