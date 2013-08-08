@@ -7,12 +7,12 @@ Things dealing with vmware products
 Recap from Boerlowie's [blog][0]:
 
 In your EXSi shell, in the directory that contains your virtual machine:  
-*Virtual size:*  
+**Virtual size:**  
 ```ls –lh *.vmdk```  
-*Real provisioned size*:  
+**Real provisioned size:**  
 ```du –h *.vmdk```  
-*Shrink them:*  
-```vmkfstools –punchzero VirtualDisk.vmdk```
+**Shrink them:**  
+```vmkfstools --punchzero VirtualDisk.vmdk```
 
 Replace `VirtualDisk` with your VirtualDisk file name.
 
