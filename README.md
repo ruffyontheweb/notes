@@ -8,4 +8,4 @@
 
 *   `papers`: reading stuff
 
-*   `vagrant`: [vagrant](https://github.com/mitchellh/vagrant/) and virtualization...
+*   `virtualization`: virtualization stuff
