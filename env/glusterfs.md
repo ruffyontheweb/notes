@@ -33,6 +33,10 @@ In case you don't have compiler and `make`, install it,
 ### Upgrading to CentOS 6.4
 
 If you upgrade the server from 6.3 to 6.4, the client will fail to mount.
-Check out this [email][0] from Alan Orth.
+Check out this [email][0] from Alan Orth. If you need `audit2allow` tool,
+install it with
+```
+# yum install policycoreutils-python
+```
 
 [0]: http://www.gluster.org/pipermail/gluster-users/2013-March/035731.html "CentOS 6.4 gluster"
