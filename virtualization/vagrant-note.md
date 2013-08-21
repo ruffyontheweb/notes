@@ -36,7 +36,7 @@ The joy of CentOS 6.4
 
 See [discussion][0].
 
-Fix: Courtesys of Stephen Brown from the above link.
+Fix: Courtesy of Stephen Brown from the above link.
 
 Edit `/opt/vagrant/embedded/gems/gems/vagrant-1.2.7/plugins/hosts/fedora/host.rb`
 line `39` to (add `CentOS` to `Fedora`
@@ -44,6 +44,9 @@ line `39` to (add `CentOS` to `Fedora`
 version_number = /[Fedora|CentOS].*release ([0-9]+)/.match(f.gets)[1].to_i
 ```
 
+Commit [2a9d0c9d7f5d][1] fixed it.
+
 Author: _Tuan T. Pham_
 
-[0]: http://vagrant.1086180.n5.nabble.com/Cant-Install-Vagrant-on-CentOS-6-4-td1446.html
+[0]: http://vagrant.1086180.n5.nabble.com/Cant-Install-Vagrant-on-CentOS-6-4-td1446.html "vagrant on CentOS"
+[1]: https://github.com/mitchellh/vagrant/commit/2a9d0c9d7f5dc1c428e71cc43a13ae4624744f16#plugins/hosts/fedora/host.rb "github URL"
