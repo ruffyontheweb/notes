@@ -27,3 +27,12 @@ In case you don't have compiler and `make`, install it,
 
     *   Using fstab:  
 ```server:/GlusterVol /mnt/mountPoint glusterfs defaults 0 0```
+
+----------oOo------------
+
+### Upgrading to CentOS 6.4
+
+If you upgrade the server from 6.3 to 6.4, the client will fail to mount.
+Check out this [email][0] from Alan Orth.
+
+[0]: http://www.gluster.org/pipermail/gluster-users/2013-March/035731.html "CentOS 6.4 gluster"
