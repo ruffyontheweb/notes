@@ -39,4 +39,25 @@ install it with
 # yum install policycoreutils-python
 ```
 
+### Ports on glusterfs
+
+| Transport | Service    | Port      | Version |
+|:---------:|:----------:|----------:|:-------:|
+| TCP       | glusterd   | 24007     |     ANY |
+| RDMA      | glusterd   | 24008     |     ANY |
+| TCP/RMDA  | glusterfs  | 24009+    |  < 3.4  |
+| TCP/RMDA  | glusterfs  | 49152+    |    3.4  |
+| TCP       | NFS        | 3846[5-7] |    ANY  |
+| TCP       | NLM        | 38468     |    3.3  |
+| TCP/UDP?  | portmap    | 111       |    ANY  |
+
+From IRC's bot:
+```
+glusterd's management port is 24007/tcp and 24008/tcp if you use rdma.
+Bricks (glusterfsd) use 24009 & up for <3.4 and 49152 & up for 3.4.
+(Deleted volumes do not reset this counter.) Additionally it will listen on
+38465-38467/tcp for nfs, also 38468 for NLM since 3.3.0. NFS also depends on rpcbind/portmap on port 111
+```
+
+
 [0]: http://www.gluster.org/pipermail/gluster-users/2013-March/035731.html "CentOS 6.4 gluster"
