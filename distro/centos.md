@@ -16,3 +16,10 @@ http://www.centos.org/docs/5/html/Installation_Guide-en-US/s1-rescuemode-booting
 
 ### Install Python 2.7/3.x 
 http://toomuchdata.com/2012/06/25/how-to-install-python-2-7-3-on-centos-6-2/
+
+### Add `epel` repo
+`rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm`
+
+Then you install niffty tool like `gdisk`
+
+`yum install gdisk`
