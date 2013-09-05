@@ -1,3 +1,5 @@
+*   Paul E. McKenney's [Is Parallel Programming Hard, And, If So, What Can You Do About It?][0]
+
 *    Andi Kleen's [list of papers](http://halobates.de)
 
 *    [Advanced Linux FS-2013](https://prof.hti.bfh.ch/myf1/adv-linux/) (0)
@@ -24,3 +26,5 @@
 (0): Course notes from the class Advanced Linux FS-2013, taught by Franz Meyer @ Berner Fachhochschule Technik und Informatik.
 
 (1): Linux Device Driver, 3rd Edition by Jonathan Corbet, Alessandro Rubini, and Greg Kroah-Hartman.
+
+[0]: https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.2013.01.13a.pdf "Parallel Programming"
