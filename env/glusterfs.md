@@ -59,5 +59,10 @@ Bricks (glusterfsd) use 24009 & up for <3.4 and 49152 & up for 3.4.
 38465-38467/tcp for nfs, also 38468 for NLM since 3.3.0. NFS also depends on rpcbind/portmap on port 111
 ```
 
+[Tuning glusterfs][1]
+
+**TODO:**
+* Refactor this document
 
 [0]: http://www.gluster.org/pipermail/gluster-users/2013-March/035731.html "CentOS 6.4 gluster"
+[1]: http://www.jamescoyle.net/how-to/559-glusterfs-performance-tuning "gluster tuning"
