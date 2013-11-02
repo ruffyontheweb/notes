@@ -3,7 +3,7 @@ Setup powerline on Debian
 
 **Setup the right vim version**  
 `# apt-get install vim-nox`  
-`# update-alternative --config editor`  
+`# update-alternatives --config editor`  
 Select `vim.nox`
 
 **Install python setup tools**  
