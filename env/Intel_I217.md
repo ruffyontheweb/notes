@@ -5,7 +5,7 @@ This Intel GigE chipset is used by many 1150 mother broads
 3.5 coming with Debian Wheezy or Ubuntu 12.04.2 doesn't
 support it.
 
-Roll your own kernel 3.9 or 3.10 to get support for it.
+Roll your own kernel 3.9 or later to get support for it.
 
 You can also download the driver from [Intel Download][0]
 
