@@ -1,7 +1,8 @@
-all: vagrant-note.html vagrant-base.html
+LIST=vagrant-note.html vagrant-base.html virtualbox.html vmware.html
+all: $(LIST)
 
-vagrant-note.html: vagrant-note.md
-	maruku --html --output vagrant-note.html vagrant-note.md
+%.html:%.md
+	maruku $<
 
-vagrant-base.html: vagrant-base.md
-	maruku --html --output vagrant-base.html vagrant-base.md
+clean:
+	rm -f $(LIST)
