@@ -1,12 +1,14 @@
-| Component | Brand/Model | Price |
-|:---------:|:------------|:-----:|
-| CPU | AMD [A10-6700][0] | 148.99|
-| MB | GIGABYTE [GA-F2A88XN-WIFI][1] | 109.99+7.99|
-| RAM | CORSAIR [Vengeance 16GB][2] | 199.99|
-| picoPSU Kit | [160W][3] | 75.95|
-| Case | Mini-box [M350][4] | 39.95 |
-| LP Heatsink | Noctua [LP][5] | 46.72 |
-| Total | ---- | 629.58|
+### An AMD APU-based mini-box with 3 video outputs
+
+| Component | Brand/Model                   | Price  |   %    |
+|:---------:|:-----------------------------:|-------:|-------:|
+| CPU       | AMD [A10-6700][0]             | 148.99 |  23.66 |
+| MB        | GIGABYTE [GA-F2A88XN-WIFI][1] | 117.98 |  18.73 |
+| RAM       | CORSAIR [Vengeance 16GB][2]   | 199.99 |  31.76 |
+| picoPSU   | [160W][3]                     |  75.95 |  12.06 |
+| Case      | Mini-box [M350][4]            |  39.95 |   6.34 |
+| Heatsink  | Noctua [LP][5]                |  46.72 |   7.42 |
+| Total     | ===          oOo          === | 629.58 | 100.00 |
 
 [0]: http://www.newegg.com/Product/Product.aspx?Item=N82E16819113332 "A10-6700"
 [1]: http://www.newegg.com/Product/Product.aspx?Item=N82E16813128663 "FM2 MB"
