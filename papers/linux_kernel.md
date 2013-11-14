@@ -1,4 +1,7 @@
-*   Paul E. McKenney's [Is Parallel Programming Hard, And, If So, What Can You Do About It?][0]
+### Papers on Linux kernel topic
+
+*   "Understanding the Linux Virtual Memory Manager" [book][0] by Mel Gorman
+*   Paul E. McKenney's [Is Parallel Programming Hard, And, If So, What Can You Do About It?][1]
 
 *    Andi Kleen's [list of papers](http://halobates.de)
 
@@ -27,4 +30,5 @@
 
 (1): Linux Device Driver, 3rd Edition by Jonathan Corbet, Alessandro Rubini, and Greg Kroah-Hartman.
 
-[0]: https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.2013.01.13a.pdf "Parallel Programming"
+[0]: https://www.kernel.org/doc/gorman/ "Understanding the Linux Virtual Memory Manager"
+[1]: https://www.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.2013.01.13a.pdf "Parallel Programming"
