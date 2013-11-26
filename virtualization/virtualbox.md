@@ -7,7 +7,10 @@ This zeros out the unused inodes to make the virtual disk more compressible.
 
 ```VBoxManage modifyhd "<VDI_FILE_HERE>" --compact```
 
+* zerofree [source][1]
+
 ### Convert physical installation to virtualbox
 * From virtualbox.org: [Migrate Windows][0]
-
+ 
 [0]: https://www.virtualbox.org/wiki/Migrate_Windows "Migrate Windows"
+[1]: http://intgat.tigress.co.uk/rmy/uml/index.html
