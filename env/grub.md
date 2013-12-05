@@ -1,9 +1,9 @@
-## All Things Grub Related
+## All Things GRUB Related
 
 Setting kernel console message to serial port
 ```GRUB_CMDLINE_LINUX_DEFAULT=“console=tty0 console=ttyS0,115200n8 debug ignore_loglevel”```
 
-### Grub and GPT
+### GRUB and GPT
 *Occasionally you need to install grub to a hard drive with GPT.*
 
 You need to prepare the hard drive with GPT a small partition set to
