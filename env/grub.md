@@ -6,8 +6,8 @@ Setting kernel console message to serial port
 ### GRUB and GPT
 *Occasionally you need to install grub to a hard drive with GPT.*
 
-You need to prepare the hard drive with GPT a small partition set to
-[BIOS Boot partition][0]. Using `gdisk` to create an extra partition,
+You need to prepare the hard drive with GPT a small partition that is
+set to [BIOS Boot partition][0]. Using `gdisk` to create an extra partition,
 usually 1MB, at the beginning of your hard drive. Typically, the normal
 partition starts at sector 2048 so you should have enough space for the
 next partition and it is still aligned well. Set the type to `EF02` and
@@ -22,7 +22,7 @@ If you happen to discover that you need this partition when run into
 just switch to console to use `gdisk` to create the `BIOS Boot partition` as
 described above and try to reinstall `grub`.
 
-If you happen to have system where you have almost everything *"working"*
+If you happen to have the system where you have almost everything *"working"*
 except that GRUB is not installed on your awesome GPT drive, try this.
 
 * Boot the system with a LIVE CD (Crunchbang Linux or Ubuntu..etc.)
