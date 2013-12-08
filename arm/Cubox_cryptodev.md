@@ -29,7 +29,7 @@ In the `chroot` environment, checkout `cryptodev-linux` and compile it.
 # KERNEL_DIR=/path/to/source/linux make install
 ```
 
-The modules `crypto.ko` is installed to `INSTALL_MOD_PATH` when you install
+The module `crypto.ko` is installed to `INSTALL_MOD_PATH` when you install
 modules in the kernel compilation and modules installation step. It is in
 `extra` directory.
 
