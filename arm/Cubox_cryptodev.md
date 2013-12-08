@@ -20,12 +20,14 @@ Cross-compile the kernel if you need to.
 **2. cryptodev-linux**
 
 In the `chroot` environment, checkout `cryptodev-linux` and compile it.  
-`# git clone https://github.com/nmav/cryptodev-linux.git`  
-`# cd cryptodev-linux`  
-`# export ARCH=arm`  
-`# export CROSS_COMPILE=/opt/bin/arm-linux-gnueabihf-`  
-`# KERNEL_DIR=/path/to/source/linux make`  
-`# KERNEL_DIR=/path/to/source/linux make install`  
+```
+# git clone https://github.com/nmav/cryptodev-linux.git
+# cd cryptodev-linux
+# export ARCH=arm
+# export CROSS_COMPILE=/opt/bin/arm-linux-gnueabihf-
+# KERNEL_DIR=/path/to/source/linux make
+# KERNEL_DIR=/path/to/source/linux make install
+```
 
 The modules `crypto.ko` is installed to `INSTALL_MOD_PATH` when you install
 modules in the kernel compilation and modules installation step. It is in
@@ -43,9 +45,11 @@ In the native Cubox--ARM environment--, apply the distro patch in the `openssl` 
 `# patch -p1 < version-script.patch`
 
 Then you can compile and install `openssl`  
-`# ./config --prefix=/usr -DHAVE_CRYPTODEV -DUSE_CRYPTODEV_DIGESTS shared`  
-`# make`  
-`# make install`
+```
+# ./config --prefix=/usr -DHAVE_CRYPTODEV -DUSE_CRYPTODEV_DIGESTS shared
+# make
+# make install
+```
 
 Reboot your Cubox.  The new system should have `/dev/crypto` device and `openssl`
 uses it for md5, aes128...stuff.
