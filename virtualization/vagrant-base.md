@@ -40,7 +40,7 @@ that you will launch `vagrant` VMs to `~/.vagrant.d/insecure_private_key` **and*
 * If you use the default vagrant `insecure_private_key` at `$HOME/.vagrant.d`
 then you need to use the vagrant `public key`.  
     `vagrant$ mkdir .ssh && cd .ssh`  
-    `vagrant$ wget http://github.com/mitchellh/vagrant/raw/master/keys/vagrant.pub`  
+    `vagrant$ wget https://github.com/mitchellh/vagrant/raw/master/keys/vagrant.pub`  
     `vagrant$ mv vagrant.pub authorized_keys`  
 * `SSH` Tweak from `docs.vagrantup.com`  
     `# echo "UseDNS no" >> /etc/ssh/sshd_config`
