@@ -28,9 +28,9 @@ except that GRUB is not installed on your awesome GPT drive, try this.
 * Boot the system with a LIVE CD (Crunchbang Linux or Ubuntu..etc.)
 * `chroot` to your system root file system
 * Actually, you need to mount couple things before you `chroot`  
-`# mount -o bind /dev /path/to/mounted/root`  
-`# mount -o bind /proc /path/to/mounted/root`  
-`# mount -o bind /sys /path/to/mounted/root`  
+`# mount -o bind /dev /path/to/mounted/root/dev`  
+`# mount -o bind /proc /path/to/mounted/root/proc`  
+`# mount -o bind /sys /path/to/mounted/root/sys`  
 
 You might want to copy your LiveCD `/etc/resolv.conf` to root's `/etc`
 if you need any interweb connection when you are in `chroot` environment.
