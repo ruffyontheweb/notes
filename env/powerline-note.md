@@ -23,6 +23,7 @@ Select `vim.nox`
 `# apt-get install tmux`
 
 **Add this to your `.bashrc`**  
+`export POWERLINE_COMMAND=/path/to/powerline/scripts/powerline`  
 `$ echo ". /path/to/powerline/powerline/bindings/bash/powerline.sh" >> ~/.bashrc`
 
 **Install fonts for `powerline`**  
