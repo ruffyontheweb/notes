@@ -24,7 +24,7 @@ Select `vim.nox`
 
 **Add this to your `.bashrc`**  
 `export POWERLINE_COMMAND=/path/to/powerline/scripts/powerline`  
-`$ echo ". /path/to/powerline/powerline/bindings/bash/powerline.sh" >> ~/.bashrc`
+`. /path/to/powerline/powerline/bindings/bash/powerline.sh`
 
 **Install fonts for `powerline`**  
 `$ git clone https://github.com/Lokaltog/powerline-fonts`  
