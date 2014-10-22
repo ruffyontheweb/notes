@@ -30,4 +30,10 @@ Select `vim.nox`
 `$ git clone https://github.com/Lokaltog/powerline-fonts`  
 `$ cp powerline-fonts/your_favorite_fonts/*.otf ~/.fonts`
 
+If you update `powerline` and see error `ImportError: No module named config`
+when you open a new shell, it is likely that the new library path is mangled
+with the old one. As root, edit the file `/usr/local/lib/python2.7/dist-packages/easy-install.pth`
+Keep the new one `./powerline_status-dev-py2.7.egg` and delete the old one.
+Probably, it is something like `./Powerline-dev-py2.7.egg`
+
 Written by: _Tuan T. Pham_
