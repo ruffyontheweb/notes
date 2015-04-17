@@ -41,8 +41,16 @@ export POWERLINE_COMMAND=/path/to/powerline/scripts/powerline
 **Install fonts for `powerline`**
 ```
 $ git clone https://github.com/Lokaltog/powerline-fonts
-$ cp powerline-fonts/your_favorite_fonts/*.otf ~/.fonts
+$ mkdir ~/.fonts
+$ cd ~/.fonts
+$ ln -s /path/to/powerline-fonts/your_favorite_fonts/*.otf .
 ```
+Basically, you make symbolic links at `$HOME/.fonts` to your
+downloaded font (`*.otf` files). After this, these modified
+fonts should be available to your system. In the `Preferences`
+option of your terminal, change the current font to this
+new font. Powerline will use this modified font to display
+certain glyphs at the...powerline.
 
 If you update `powerline` and see error `ImportError: No module named config`
 when you open a new shell, it is likely that the new library path is mangled
